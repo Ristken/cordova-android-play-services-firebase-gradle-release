@@ -1,0 +1,25 @@
+{
+  "name": "cordova-android-play-services-firebase-gradle-release",
+  "version": "1.0.0",
+  "description": "Cordova/Phonegap plugin to align various versions of the Play Services and Firebase libraries specified by other plugins to the latest release version",
+  "cordova": {
+    "id": "cordova-android-play-services-firebase-gradle-release",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RTeran/cordova-android-play-services-firebase-gradle-release.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "RTeran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RTeran/cordova-android-play-services-firebase-gradle-release/issues"
+  },
+  "homepage": "https://github.com/RTeran/cordova-android-play-services-firebase-gradle-release#readme"
+}
