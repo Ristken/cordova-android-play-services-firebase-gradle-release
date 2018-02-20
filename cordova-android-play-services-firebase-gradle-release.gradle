@@ -1,15 +1,10 @@
 configurations.all {
     resolutionStrategy.eachDependency { DependencyResolveDetails details ->
         def requested = details.requested
-        if (requested.group == 'com.google.android.gms') {
-            if (!requested.name.startsWith("multidex")) {
-                details.useVersion '11.6.+'
-            }
-        }
 
         if (requested.group == 'com.google.firebase') {
           if (!requested.name.startsWith("multidex")) {
-            details.useVersion '11.4.+'
+            details.useVersion '11.6.2'
           }
         }
     }
